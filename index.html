@@ -1,0 +1,133 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<title>Table instances</title>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+  <body>
+      <div class="dropdown">
+
+<div id="myDropdown" class="dropdown-content">
+    <a id="angInsertAbove" href="#">Insert Row Above</a>
+    <a id="angInsertBelow" href="#">Insert Row Below</a>
+    <a id="angDelete" href="#" >Delete Row</a>
+    
+  </div>
+</div>
+       <div id="div_Store" class="div_Sample"></div>
+      <div id="div_Filter" class="filter">
+          <input type="text" id="myInput" class="search" placeholder="Search......"><br />
+           <label>Filters:</label><br />
+      
+          <div id="div_ENO" class="div_ENO">
+        
+         </div>
+          <div class="buttonStyle"> <input type="button" id="btn_OK" value="OK"/>   <input type="button" id="btnCancel" value="Cancel"/></div>
+    </div>
+    
+       <h3>
+      JavaScript :Displaying Emp Details</h3>
+      
+   <table id="empTable" border="1" class="dropTable" >
+      <tr class="headers" >
+     
+          <th>
+             <a id="ang_SNO" href="#">S NO</a>
+              <img id="img1" />&nbsp;&nbsp;&nbsp;<a id="fil_SNO" href="#"><img src="Image/filter.gif" class="image"/></a>
+          </th>
+          <th >
+               <a id="ang_ENo" href="#" >Emp No</a><img  id="img2"/>&nbsp;&nbsp;&nbsp;<a id="fil_ENO" href="#"><img src="Image/filter.gif" class="image" /></a>
+              
+          </th>
+          <th >
+               <a id="ang_EName" href="#" >Emp Name</a><img  id="img3"/>&nbsp;&nbsp;&nbsp;<a id="fil_EName" href="#"><img src="Image/filter.gif" class="image"/></a>
+              
+          </th>
+          <th>
+               <a id="ang_ESal" href="#" >Emp Salary</a><img  id="img4" />&nbsp;&nbsp;&nbsp;<a id="fil_ESal" href="#"><img src="Image/filter.gif" class="image" /></a>
+              
+          </th>
+      </tr>
+      <tr class="row">
+      
+          <td>
+              1
+          </td>
+          <td >
+              101
+          </td>
+          <td >Jey</td>
+          <td>
+              10
+          </td>
+      </tr>
+      <tr class="row">
+      
+          <td >
+              2
+          </td>
+          <td >
+              102
+          </td>
+          <td >Lakshana</td>
+          <td>
+              15
+          </td>
+      </tr>
+      <tr class="row">
+     
+          <td >
+              3
+          </td>
+          <td >
+              103
+          </td>
+          <td >Poochi</td>
+          <td>
+              20
+          </td>
+      </tr>
+      <tr class="row">
+     
+          <td >
+              4
+          </td>
+          <td >
+              104
+          </td>
+          <td >Debu</td>
+          <td>
+              25
+          </td>
+      </tr>
+      <tr class="footers">
+          <td >
+              Total
+          </td>
+          <td colspan="2" align="center" id="tdNoOfRows">
+              4
+          </td>
+          <td id="totalSalary">
+              70
+          </td>
+      </tr>
+  </table>
+
+  <br />
+      <div id="listingTable"></div>
+<a href="#" id="btn_prev">Prev</a>
+<a href="#" id="btn_next">Next</a>
+page: <span id="page"></span>
+  <br />
+  <button type="button" id="btnDownloadJSON">Download JSON</button>
+  <button id="downloadAnchor" type="button">Download CSV</button>
+  <label id="lblStatus" visible="false"></label>
+  <script src="main.js" type="text/javascript"></script>          
+  </body>
+</html>
