@@ -1,0 +1,78 @@
+/*Assigning CSS here for the main page*/
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+h3 {
+	color: Navy;
+}
+
+.headers, .footers {
+	background-color: Orange;
+}
+.buttonStyle {
+    padding-left: 2px;
+}
+.user-form {
+	border: 1px solid black
+}
+.div_Sample {
+    display: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+.search {
+    width:110px;
+}
+.filter {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 120px;
+   
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.show_CM {display:block;}
+.show {display:grid;}
+.hide {display:none;}
+
+.show_SNO {display:grid;}
+.hide_SNO {display:none;}
+
+.show_pg {display:grid;}
+.hide_pg {display:none;}
+
+.show_Filter {display:grid;}
+.hide_Filter {display:none;}
+
+.dropTable {
+    text-align:left;
+}
+.tableRow {
+    text-align:left;
+}
+.div_ENO {
+    height: 140px;
+}
+
